@@ -8,7 +8,9 @@
   <remote name="github"
            fetch="https://github.com/" />
 		   
-  <remote name="cypher" />
+  <remote name="cypher"
+           fetch="git://github.com/CypherOS"
+           revision="mm6.0" />
 
   <remote name="aicp"
            fetch="https://github.com/"
@@ -37,7 +39,7 @@
            sync-c="true"
            sync-j="4" />
 
-<!-- BEGIN CYPHER -->
+<!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="cm" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" remote="cm" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm" />
@@ -322,8 +324,7 @@
   <project path="packages/apps/Settings" name="CypherOS/packages_apps_Settings" groups="pdk-fs" remote="cypher" />
   <project path="packages/apps/SetupWizard" name="CypherOS/packages_apps_SetupWizard" remote="cypher" />
   <project path="vendor/cypher" name="CypherOS/vendor_cypher" remote="cypher" />
-  <!-- END CYPHER -->
-
+  
   <!-- AICP custom -->
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
   <project path="external/sepolicy" name="AICP/external_sepolicy" groups="pdk" remote="aicp" />
@@ -341,7 +342,8 @@
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
   <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" />
-  <!-- END AICP -->
+  <!-- END CYANOGENMOD -->
+
 
   <!-- Anti-piracy support -->
   <!-- <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" /> -->
