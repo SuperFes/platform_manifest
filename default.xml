@@ -8,7 +8,9 @@
   <remote name="github"
            fetch="https://github.com/" />
 		   
-  <remote name="cypher" />
+  <remote name="cypher" 
+           fetch="https://github.com/"
+           revision="mm6.0" />
 
   <remote name="aicp"
            fetch="https://github.com/"
