@@ -321,27 +321,27 @@
   <project path="build" name="CyherOS/build" remote="cypher" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="external/sepolicy" name="CypherOS/external_sepolicy" groups="pdk" remote="cypher" />
+  <project path="external/DUtils" name="CypherOS/external_DUtils" remote="cypher" />
+  <project path="system/core" name="CypherOS/system_core" groups="pdk" remote="cypher" />
+  <project path="frameworks/base" name="CypherOS/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cypher" />
+  <project path="frameworks/opt/telephony" name="CypherOS/frameworks_opt_telephony" groups="pdk" remote="cypher" />
+  <project path="packages/apps/Dialer" name="CypherOS/packages_apps_Dialer" groups="pdk-fs" remote="cypher" />
+  <project path="packages/apps/DUI" name="CypherOS/packages_apps_DUI" remote="cypher" />
+  <project path="packages/apps/InCallUI" name="CypherOS/packages_apps_InCallUI" groups="pdk-fs" remote="cypher" />
   <project path="packages/apps/Settings" name="CypherOS/packages_apps_Settings" groups="pdk-fs" remote="cypher" />
   <project path="packages/apps/SetupWizard" name="CypherOS/packages_apps_SetupWizard" remote="cypher" />
+  <project path="packages/services/Telecomm" name="CypherOS/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="cypher" />
+  <project path="packages/services/Telephony" name="CypherOS/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="cypher" />
+  <project path="vendor/cmsdk" name="CypherOS/vendor_cmsdk" remote="cypher" />
   <project path="vendor/cypher" name="CypherOS/vendor_cypher" remote="cypher" />
   
   <!-- AICP custom -->
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
-  <project path="external/sepolicy" name="AICP/external_sepolicy" groups="pdk" remote="aicp" />
   <project path="external/android-snackbar" name="AICP/external_android-snackbar" remote="aicp" />
-  <project path="external/DUtils" name="AICP/external_DUtils" remote="aicp" />
   <project path="external/mksh" name="AICP/external_mksh" groups="pdk" remote="aicp" />
-  <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="aicp" />
-  <project path="frameworks/opt/telephony" name="AICP/frameworks_opt_telephony" groups="pdk" remote="aicp" />
-  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/DUI" name="AICP/packages_apps_DUI" remote="aicp" />
-  <project path="packages/apps/InCallUI" name="AICP/packages_apps_InCallUI" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Nfc" name="AICP/packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="aicp" />
-  <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
-  <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" />
   <!-- END CYANOGENMOD -->
 
 
