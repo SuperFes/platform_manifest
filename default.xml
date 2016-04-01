@@ -318,7 +318,7 @@
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="cm" />
   
   <!-- CYPHER custom -->
-  <project path="build" name="CyherOS/build" remote="cypher" >
+  <project path="build" name="CypherOS/build" remote="cypher" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="external/sepolicy" name="CypherOS/external_sepolicy" groups="pdk" remote="cypher" />
